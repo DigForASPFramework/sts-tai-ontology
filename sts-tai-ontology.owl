@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/DigForASPFramework/sts-tai-ontology#"
+     xml:base="https://github.com/DigForASPFramework/sts-tai-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#ensuresEthicalRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#ensuresEthicalRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#taiProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#externalStateProperty -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#externalStateProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#followsProcedure -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#followsProcedure">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Procedure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#guaranteedEthicalRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#guaranteedEthicalRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#taiProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#hasCapabilities -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#hasCapabilities">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Capability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#hasEthicalRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#hasEthicalRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#internalStateProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#impactsEthicalRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#impactsEthicalRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#taiProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#internalStateProperty -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#internalStateProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#involvesPerson -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#involvesPerson">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Organization"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#involvesStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#involvesStakeholder">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#internalStateProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#operatesWithinInfrastructure -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#operatesWithinInfrastructure">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#sharesCulturalAssumption -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#sharesCulturalAssumption">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Culture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#suggestsEthicalRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#suggestsEthicalRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#externalStateProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#suggestsStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#suggestsStakeholder">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#externalStateProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#taiProperty -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#taiProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#usesTechnology -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#usesTechnology">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Technology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#worksTowardGoal -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#worksTowardGoal">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#stsProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdfs:range rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Goal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Accountability -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Accountability">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Aggregation -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Aggregation">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#AnomalyDetection -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#AnomalyDetection">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Capability -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Capability">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Culture -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Culture">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#DecisionMaking -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#DecisionMaking">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Deployment -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Deployment">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Diversity -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Diversity">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Explanations -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Explanations">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Goal -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Goal">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#HumanActuator -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#HumanActuator">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#HumanAgency -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#HumanAgency">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Infrastructure -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Infrastructure">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#InternalState -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#KnowledgeExtraction -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#KnowledgeExtraction">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#OfflineSimulation -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#OfflineSimulation">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Organization -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Perception -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Perception">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Person -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Person">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Privacy -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Privacy">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Procedure -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Procedure">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#RequirementAnalysis -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#RequirementAnalysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#RiskAnalysis -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#RiskAnalysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Robustness -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Robustness">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#SocietalEnvironmentalWellbeing -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SocietalEnvironmentalWellbeing">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#SystemDesign -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SystemDesign">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Technology -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Technology">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Transparency -->
+
+    <owl:Class rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Transparency">
+        <rdfs:subClassOf rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#PoliceOfficer1 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#PoliceOfficer1">
+        <rdf:type rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdf:type rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/DigForASPFramework/sts-tai-ontology#Suspect1 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Suspect1">
+        <rdf:type rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+        <rdf:type rdf:resource="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Accountability"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Diversity"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#HumanAgency"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Privacy"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Robustness"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SocietalEnvironmentalWellbeing"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Transparency"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Aggregation"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#AnomalyDetection"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#DecisionMaking"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Explanations"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#HumanActuator"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#KnowledgeExtraction"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#OfflineSimulation"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Perception"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#RequirementAnalysis"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#RiskAnalysis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Culture"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Goal"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Infrastructure"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Person"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Procedure"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Technology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Deployment"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#RequirementAnalysis"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SystemDesign"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#EthicalRequirement"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#ExternalState"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#InternalState"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#SocioTechnicalElement"/>
+            <rdf:Description rdf:about="https://github.com/DigForASPFramework/sts-tai-ontology#Stakeholder"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
