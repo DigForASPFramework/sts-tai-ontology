@@ -8,6 +8,8 @@ This repository hosts the Socio-technical Trustworthy Systems Ontology, implemen
 
 The authors of the ontology are currently anonymous as the paper describing the ontology is under review. Authorship will be disclosed upon publication.
 
+![Background Image](sts-tai-ontology.png)
+
 ## Ontology Metrics
 
 - Axiom: 136
