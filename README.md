@@ -8,7 +8,7 @@ This repository hosts the Socio-technical Trustworthy Systems Ontology, implemen
 
 The authors of the ontology are currently anonymous as the paper describing the ontology is under review. Authorship will be disclosed upon publication.
 
-![Background Image](https://github.com/DigForASPFramework/sts-tai-ontology/bolb/sts-tai-ontology.png)
+![Background Image](https://github.com/DigForASPFramework/sts-tai-ontology/blob/main/sts-tai-ontology.png)
 
 ## Ontology Metrics
 
