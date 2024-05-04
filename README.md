@@ -82,4 +82,4 @@ To run the ontology in an ontology reasoner, follow these steps:
 6. **Add** `relativePath="sts-tai-ontology.owl"` and set it to the path of the ontology in your local drive
 7. **Run** the BaseVISor executable with your .bvr file
 
-Feel free to contribute to the ontology and use it for research or academic purposes. For any inquiries or collaborations, please contact [insert contact details].
+Feel free to contribute to the ontology and use it for research or academic purposes. For any inquiries or collaborations, please contact [stsontology@gmail.com].
