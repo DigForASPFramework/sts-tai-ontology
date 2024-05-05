@@ -21,7 +21,7 @@ This repository hosts the Socio-technical Trustworthy Systems Ontology, implemen
 - SubClassOf: 29
 - SubObjectPropertyOf: 18
 
-## Taxonomy
+## Taxonomy and Relations
 
 ![Background Image](https://github.com/DigForASPFramework/sts-tai-ontology/blob/main/sts-tai-ontology.png)
 
