@@ -34,13 +34,8 @@ You can explore the ontology using the following steps:
 3. **Open** the `sts-tai-ontology.owl` file in Protege
 4. **Explore**: Classes, Object Properties, and Data Properties
 
-## Run the ontology in a reasoner
+## License
 
-To run the ontology in an ontology reasoner, follow these steps:
+- © Copyright 2024. All rights reserved until the paper is published. Citation guidelines will be provided. 
 
-1. **Download BaseVISor**: [https://www.vistology.com/products/](https://www.vistology.com/products/)
-2. **Create a .bvr file** according to the BaseVISor documentation
-3. **Add** `relativePath="sts-tai-ontology.owl"` and set it to the path of the ontology in your local drive
-4. **Run** the BaseVISor executable with your .bvr file
-
-Feel free to contribute to the ontology and use it for research or academic purposes. For any inquiries or collaborations, please contact [stsontology@gmail.com].
+- For any inquiries or collaborations, please contact [stsontology@gmail.com].
