@@ -64,7 +64,7 @@ The ontology includes the following overarching classes:
   - SystemDesign
   - Deployment
 
-## Exploration
+## Explore the ontology in Protege open source Ontology Editor
 
 You can explore the ontology using the following steps:
 
