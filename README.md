@@ -25,45 +25,6 @@ This repository hosts the Socio-technical Trustworthy Systems Ontology, implemen
 
 ![Background Image](https://github.com/DigForASPFramework/sts-tai-ontology/blob/main/sts-tai-ontology.png)
 
-The ontology includes the following overarching classes:
-
-- **Stakeholder**
-  - Person
-
-- **SocioTechnicalElement**
-  - Person
-  - Technology
-  - Infrastructure
-  - Culture
-  - Procedure
-  - Goal
-
-- **EthicalRequirement**
-  - Transparency
-  - HumanAgency
-  - SocietalEnvironmentalWellbeing
-  - Diversity
-  - Robustness
-  - Accountability
-  - Privacy
-
-- **InternalState**
-  - Perception
-  - KnowledgeExtraction
-  - Aggregation
-  - AnomalyDetection
-  - RiskAnalysis
-  - DecisionMaking
-  - Explanations
-  - HumanActuator
-  - OfflineSimulation
-  - RequirementAnalysis
-
-- **ExternalState**
-  - RequirementAnalysis
-  - SystemDesign
-  - Deployment
-
 ## Explore the ontology in an editor
 
 You can explore the ontology using the following steps:
@@ -77,12 +38,9 @@ You can explore the ontology using the following steps:
 
 To run the ontology in an ontology reasoner, follow these steps:
 
-1. **Ontology reasoner**: BaseVISor
-2. **Download BaseVISor**: [More info](https://www.vistology.com/products/)
-3. **Supported syntaxes**: RDF/XML, OWL/XML, All OWL API
-4. **Supported reasoning services**: Realization, Classification, Satisfiability, Conjunctive Query Answering, Entailment, Consistency
-5. **Create a .bvr file** according to the BaseVISor documentation
-6. **Add** `relativePath="sts-tai-ontology.owl"` and set it to the path of the ontology in your local drive
-7. **Run** the BaseVISor executable with your .bvr file
+1. **Download BaseVISor**: [https://www.vistology.com/products/](https://www.vistology.com/products/)
+2. **Create a .bvr file** according to the BaseVISor documentation
+3. **Add** `relativePath="sts-tai-ontology.owl"` and set it to the path of the ontology in your local drive
+4. **Run** the BaseVISor executable with your .bvr file
 
 Feel free to contribute to the ontology and use it for research or academic purposes. For any inquiries or collaborations, please contact [stsontology@gmail.com].
