@@ -73,7 +73,7 @@ You can explore the ontology using the following steps:
 3. **Open** the `sts-tai-ontology.owl` file in Protege
 4. **Explore**: Classes, Object Properties, and Data Properties
 
-## Ontology Reasoning
+## Run the ontology in a reasoner
 
 To run the ontology in an ontology reasoner, follow these steps:
 
