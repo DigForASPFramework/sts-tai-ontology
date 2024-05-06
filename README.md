@@ -9,9 +9,10 @@ This repository will host the Socio-technical Trustworthy Systems Ontology, impl
 - The authors of the ontology are currently anonymous as the paper describing the ontology is under review. 
 - Authorship will be disclosed upon publication.
 
-## Taxonomy and Relations
+## Ontology Source Code
 
-- The ontology source code will be shared at a later date.
+- The ontology is implemented in Web Ontology Language (OWL).
+- [sts-tai-ontology.owl](https://raw.githubusercontent.com/STS-TAI-Framework/sts-tai-ontology/main/sts-tai-ontology.owl)
 
 ## Ontology Metrics
 
