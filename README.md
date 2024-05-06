@@ -36,6 +36,8 @@ You can explore the ontology using the following steps:
 
 ## License
 
-- © Copyright 2024, by the authors. All rights reserved until further notice. Citation guidelines will be provided. 
+- © Copyright 2024, by the authors. All rights reserved until further notice. 
+  
+- This ontology is aimed to be open access when the paper is published. Citation guidelines will be provided.
 
 - For any inquiries or collaborations, please contact [stsontology@gmail.com].
