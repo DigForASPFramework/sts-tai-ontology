@@ -11,7 +11,7 @@ This repository will host the Socio-technical Trustworthy Systems Ontology, impl
 
 ## Taxonomy and Relations
 
-- The ontology will be shared after paper publication.
+- The ontology source code will be shared at a later date.
 
 ## Ontology Metrics
 
@@ -26,6 +26,8 @@ This repository will host the Socio-technical Trustworthy Systems Ontology, impl
 - SubObjectPropertyOf: 18
 
 ## License
+
+- © Copyright 2024, by the authors. All rights reserved until further notice. 
 
 - This ontology is aimed to be open access when the related paper is published. Citation guidelines will be provided.
 
