@@ -2,12 +2,16 @@
 
 ## Overview
 
-This repository hosts the Socio-technical Trustworthy Systems Ontology, implemented in Web Protege. The ontology represents stakeholders and their relationships within socio-technical environments, interconnected with the internal and external lifecycles of AI systems.
+This repository will host the Socio-technical Trustworthy Systems Ontology, implemented in Web Protege. The ontology represents stakeholders and their relationships within socio-technical environments, interconnected with the internal and external lifecycles of AI systems.
 
 ## Authors
 
 - The authors of the ontology are currently anonymous as the paper describing the ontology is under review. 
 - Authorship will be disclosed upon publication.
+
+## Taxonomy and Relations
+
+- The ontology will be shared after paper publication.
 
 ## Ontology Metrics
 
@@ -21,23 +25,8 @@ This repository hosts the Socio-technical Trustworthy Systems Ontology, implemen
 - SubClassOf: 29
 - SubObjectPropertyOf: 18
 
-## Taxonomy and Relations
-
-![Background Image](https://github.com/DigForASPFramework/sts-tai-ontology/blob/main/sts-tai-ontology.png)
-
-## Explore the ontology in an editor
-
-You can explore the ontology using the following steps:
-
-1. **Download Protege**: [https://protege.stanford.edu/](https://protege.stanford.edu/)
-2. **Install the OWLViz plugin** for class hierarchy visualization: [https://protegewiki.stanford.edu/wiki/OWLViz](https://protegewiki.stanford.edu/wiki/OWLViz)
-3. **Open** the `sts-tai-ontology.owl` file in Protege
-4. **Explore**: Classes, Object Properties, and Data Properties
-
 ## License
 
-- © Copyright 2024, by the authors. All rights reserved until further notice. 
-  
 - This ontology is aimed to be open access when the related paper is published. Citation guidelines will be provided.
 
-- For any inquiries or collaborations, please contact [stsontology@gmail.com].
+- For any inquiries, please contact [stsontology@gmail.com].
