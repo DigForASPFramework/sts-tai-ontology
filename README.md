@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository hosts the Socio-technical Trustworthy Systems Ontology, implemented in Web Protege. The ontology represents stakeholders and their relationships within socio-technical environments, interconnected with the internal and external lifecycles of digital forensics systems. The ontology is a foundational resource for understanding and modeling socio-technical systems with a focus on trustworthiness.
+This repository hosts the Socio-technical Trustworthy Systems Ontology, implemented in Web Protege. The ontology represents stakeholders and their relationships within socio-technical environments, interconnected with the internal and external lifecycles of AI systems.
 
 ## Authors
 
